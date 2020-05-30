@@ -1,0 +1,39 @@
+.iconround {
+    width: 100px;
+    margin: 20px;
+}
+
+.bkground {
+    background-color: rgb(222, 226, 240);
+    padding-right: 20px;
+    margin-left: -15px;
+}
+
+.title-a {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 35px;
+}
+
+.sec-category {
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.sec-border {
+    border-left: 2px solid white;
+}
+
+.contact-us {
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#contact-form {
+    margin-top: 30px;
+}
+
+.btn {
+    margin-left: -5px;
+}

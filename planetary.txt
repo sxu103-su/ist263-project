@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>IST 263/meteor-shower</title>
+
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./bootstrap-4.1.3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./project-1.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+</head>
+
+<body class="container ">
+
+
+    <nav>
+        <div class="row">
+            <div class="logo col col-6">
+                <a href="project.html">
+                    <h3><span>Celestial Events</span>&nbsp;<span style="font-size: 15px;">for year 2018</span></h3>
+                </a>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="nav-bar row">
+
+
+
+        <div class="col col-8">
+
+
+            <ul style="padding-left: 0ch;">
+                <li class="navitem">
+                    <a href="#home">HOME</a></li>
+                <li class="navitem">
+                    <a href="./category.html">ABOUT</a></li>
+                <li class="navitem dropdown">
+                    <a href="./category.html#category">CATEGORY</a>
+
+                    <ul class="dropdown-content dropdown-menu">
+                        <li class="dropdown-item"><a href="./lunar.html">MOON EVENT</a></li>
+
+                        <li class="dropdown-item"> <a href="./solar eclipse.html">SOLAR EVEN</a>T</li>
+                        <li class="dropdown-item">PLANETARY EVENT</li>
+                        <li class="dropdown-item">CONJUNCTORY</li>
+                        <li class="dropdown-item"><a href="./meteor shower.html">METEOR SHOWER</a></li>
+                        <li class="dropdown-item">COMET</li>
+                    </ul>
+
+                </li>
+                <li class="navitem">
+                    <a href="./category.html#contact">CONTACT</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="col col-3">
+            <input type="text" placeholder="Search..">
+        </div>
+    </div>
+
+
+
+
+    <div id="pic-container">
+        <div class="pic-overlay"></div>
+        <div class="pic-content">
+            <div class="inner">
+                <h1>Perseid Meteor Shower</h1>
+                <p> at August 2018</p>
+
+                <div class="scroll-icon">
+                    <a class="scrollTo" data-scrollTo="specific-content" href="#"><i class="fas fa-sort-down fa-5x" alt="arrow"  ></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <main>
+
+        <img width=100% src="./img/meteor-shower.jpg" alt="solar" type="/jpg" /></main>
+    <section id="specific-content">
+        <div class="col col-11" style="margin:auto; ">
+            <div>
+                <P id="information">INFORMATION
+                </P>
+            </div>
+            <div class="row">
+                <div class="title col col-3">
+                    <p style="margin-bottom:40px;">
+                        According to NASA meteor expert Bill Cooke, the Perseids are perhaps the most popular meteor shower of the year; and in 2018, they'll be the best shower of the year. During the Perseids' peak this weekend, spectators should see about 60-70 meteors per
+                        hour.
+
+                    </p>
+                    <div class="scroll-icon">
+                        <a style="color: white" class="special-icon scrollTo  " data-scrollTo="discribtion" href="#"><strong>LEARN MORE &nbsp<i class="fas fa-globe-asia "alt="icon"></i></strong></i></a>
+
+                    </div>
+                </div>
+                <div class="title col col-3 ">
+                    <p>The meteor shower's peak will be visible both the nights of Aug. 11-12 and Aug. 12-13, Cooke said, but he's inclined this year to lean toward the night of Aug. 12-13 for the better show. (Both, however, should be spectacular.)<br/><br/><br/></p>
+                    <div class="scroll-icon">
+                        <a style="color: white" class="special-icon scrollTo  " data-scrollTo="time" href="#"><strong>LEARN MORE &nbsp<i class="fas fa-globe-americas "></i></strong></a>
+                    </div>
+                </div>
+                <div class="title col col-3 ">
+                    <p style="margin-bottom:40px;">go to the darkest possible location and lean back to observe as much sky as possible directly above you. The rates of Perseids visible will increase from about 10 p.m. in your local time zone all the way through dawn, so the later
+                        you can look the better. <br/></p>
+                    <div class="scroll-icon">
+                        <a style="color: white" class="special-icon scrollTo  " data-scrollTo="location" href="#"><strong>LEARN MORE &nbsp<i class="fas fa-globe-africa "></i></strong></a>
+                    </div>
+                </div>
+
+            </div>
+            <section>
+                <P id="discribtion">Discribtion
+                </P>
+
+                <p class="text-background">A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown
+                    color (the color can vary based on atmospheric conditions). The Moon appears to be reddish because of Rayleigh scattering (the same effect that causes sunsets to appear reddish and the daytime sky to appear blue) and the refraction
+                    of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated within the umbral shadow.The southern portion of the Moon was closest to the center of the shadow, making it the darkest, and most red in appearance
+                    This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon
+                    remained at least partially in Earth's shadow for four hours. A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow
+                    begins to cover part of the Moon, typically turning it a dark red-brown color (the color can vary based on atmospheric conditions). The Moon appears to be reddish because of Rayleigh scattering (the same effect that causes sunsets
+                    to appear reddish and the daytime sky to appear blue) and the refraction of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated within the umbral shadow.The southern portion of the Moon was closest
+                    to the center of the shadow, making it the darkest, and most red in appearance This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short
+                    of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon remained at least partially in Earth's shadow for four hours. A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse
+                    begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown color (the color can vary based on atmospheric conditions). The Moon appears to
+                    be reddish because of Rayleigh scattering (the same effect that causes sunsets to appear reddish and the daytime sky to appear blue) and the refraction of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated
+                    within the umbral shadow.The southern portion of the Moon was closest to the center of the shadow, making it the darkest, and most red in appearance This was the longest total lunar eclipse that will occur in the 21st century. Totality
+                    lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon remained at least partially in Earth's shadow for four hours.A lunar eclipse occurs
+                    when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown.A lunar eclipse
+                    occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown.A lunar
+                    eclipse occurs when the Moon passes within
+                </p>
+                <div>
+                    <div style="position:absolute; z-index:2; left:150px; top:550px">
+
+                        <img src="./img/perseid-meteor-shower.jpg" alt="solar-d" type="/jpg" />
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="container" style="margin-top:50px">
+                    <div class="col col-11 card" style="margin:auto; ">
+                        <div class="card-body">
+                            <p style="font-size: 30px">What is Meteor Shower?</p>
+                            <p>A lunar eclipse occurs when the Moon passes directly behind Earth and into its shadow. This can occur only when the Sun, Earth, and Moon are exactly or very closely aligned (in syzygy), with Earth between the other two. A lunar
+                                eclipse can occur only on the night of a full moon. The type and length of a lunar eclipse depend on the Moon's proximity to either node of its orbit.</p>
+
+                            <p>During a total lunar eclipse, Earth completely blocks direct sunlight from reaching the Moon. The only light reflected from the lunar surface has been refracted by Earth's atmosphere. This light appears reddish for the same
+                                reason that a sunset or sunrise does: the Rayleigh scattering of bluer light. Due to this reddish color, a totally eclipsed Moon is sometimes called a blood moon.</p>
+
+                            <p>Unlike a solar eclipse, which can be viewed only from a certain relatively small area of the world, a lunar eclipse may be viewed from anywhere on the night side of Earth. A total lunar eclipse lasts a few hours, whereas a
+                                total solar eclipse lasts only a few minutes as viewed from any given place, due to the smaller size of the Moon's shadow. Also unlike solar eclipses, lunar eclipses are safe to view without any eye protection or special
+                                precautions, as they are dimmer than the full Moon.</p>
+                        </div>
+                    </div>
+            </section>
+
+            <section>
+                <P id="time">TIME
+                </P>
+
+                <p class="text-background">A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown
+                    color (the color can vary based on atmospheric conditions). The Moon appears to be reddish because of Rayleigh scattering (the same effect that causes sunsets to appear reddish and the daytime sky to appear blue) and the refraction
+                    of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated within the umbral shadow.The southern portion of the Moon was closest to the center of the shadow, making it the darkest, and most red in appearance
+                    This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon
+                    remained at least partially in Earth's shadow for four hours. A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow
+                    begins to cover part of the Moon, typically turning it a dark red-brown color (the color can vary based on atmospheric conditions). The Moon appears to be reddish because of Rayleigh scattering (the same effect that causes sunsets
+                    to appear reddish and the daytime sky to appear blue) and the refraction of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated within the umbral shadow.The southern portion of the Moon was closest
+                    to the center of the shadow, making it the darkest, and most red in appearance This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short
+                    of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon remained at least partially in Earth's shadow for four hours. A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse
+                    begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown color (the color can vary based on atmospheric conditions). The Moon appears to
+                    be reddish because of Rayleigh scattering (the same effect that causes sunsets to appear reddish and the daytime sky to appear blue) and the refraction of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated
+                    within the umbral shadow.The southern portion of the Moon was closest to the center of the shadow, making it the darkest, and most red in appearance This was the longest total lunar eclipse that will occur in the 21st century. Totality
+                    lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon remained at least partially in Earth's shadow for four hours.A lunar eclipse occurs
+                    when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown.A lunar eclipse
+                    occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown.A lunar
+                    eclipse occurs when the Moon passes within
+                </p>
+                <div>
+                    <div style="position:absolute; z-index:2; left:100px; top:1950px">
+                        <img src="./img/meteor time.jpg" alt="meteortime" type="/jpg">
+
+
+                    </div>
+
+                </div>
+
+                <div class="container" style="margin-top:50px">
+                    <div class="col col-11 card" style="margin:auto; ">
+                        <div class="card-body">
+
+                            <p style="font-size: 30px">When did the Meteor Shower Happened?</p>
+                            <p>The Moon passed through the center of Earth's shadow in what was the first central lunar eclipse since 15 June 2011. It was also the second total lunar eclipse in 2018, after the one on 31 January.</p>
+
+                            <p>The eclipse occurred when the Moon was near its maximum distance from Earth, which caused the Moon to appear smaller than normal (a phenomenon sometimes called a micromoon), and to travel at its slowest speed in its orbit around
+                                Earth. This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and
+                                47 minutes)". The Moon remained at least partially in Earth's shadow for four hours.</p>
+
+                        </div>
+                    </div>
+            </section>
+            <section>
+                <P id="location">LOCATION
+                </P>
+
+                <p class="text-background">A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown
+                    color (the color can vary based on atmospheric conditions). The Moon appears to be reddish because of Rayleigh scattering (the same effect that causes sunsets to appear reddish and the daytime sky to appear blue) and the refraction
+                    of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated within the umbral shadow.The southern portion of the Moon was closest to the center of the shadow, making it the darkest, and most red in appearance
+                    This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon
+                    remained at least partially in Earth's shadow for four hours. A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow
+                    begins to cover part of the Moon, typically turning it a dark red-brown color (the color can vary based on atmospheric conditions). The Moon appears to be reddish because of Rayleigh scattering (the same effect that causes sunsets
+                    to appear reddish and the daytime sky to appear blue) and the refraction of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated within the umbral shadow.The southern portion of the Moon was closest
+                    to the center of the shadow, making it the darkest, and most red in appearance This was the longest total lunar eclipse that will occur in the 21st century. Totality lasted approximately one hour and 43 minutes, a period "just short
+                    of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon remained at least partially in Earth's shadow for four hours. A lunar eclipse occurs when the Moon passes within Earth's umbra (shadow). As the eclipse
+                    begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown color (the color can vary based on atmospheric conditions). The Moon appears to
+                    be reddish because of Rayleigh scattering (the same effect that causes sunsets to appear reddish and the daytime sky to appear blue) and the refraction of that light by Earth's atmosphere into its umbra. The Moon's brightness is exaggerated
+                    within the umbral shadow.The southern portion of the Moon was closest to the center of the shadow, making it the darkest, and most red in appearance This was the longest total lunar eclipse that will occur in the 21st century. Totality
+                    lasted approximately one hour and 43 minutes, a period "just short of the theoretical limit of a lunar eclipse (one hour and 47 minutes)". The Moon remained at least partially in Earth's shadow for four hours.A lunar eclipse occurs
+                    when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown.A lunar eclipse
+                    occurs when the Moon passes within Earth's umbra (shadow). As the eclipse begins, Earth's shadow first darkens the Moon slightly. Then, the Earth's shadow begins to cover part of the Moon, typically turning it a dark red-brown.A lunar
+                    eclipse occurs when the Moon passes within
+                </p>
+                <div>
+                    <div style="position:absolute; z-index:2; left:150px; top:3200px; width: 70%">
+                        <img src="./img/meteor location.jpg" alt="lunarlocation" type="/jpg">
+
+
+                    </div>
+
+
+                    <div class="container" style="margin-top:50px">
+                        <div class="col col-11 card" style="margin:auto; ">
+                            <div class="card-body">
+
+                                <p style="font-size: 30px">Where can we see it?</p>
+                                <p>The lunar eclipse was completely visible over Eastern Africa, Southern Africa, Southern Asia and Central Asia, seen rising over South America, Western Africa, and Europe, and setting over Eastern Asia, and Australia.</p>
+
+                            </div>
+                        </div>
+            </section>
+            <div>
+                <a href="#top" target="_self" class="back-top"><i class="fas fa-arrow-alt-circle-up fa-5x"alt="back to top"></i></a></div>
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js "></script>
+<script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js "><\/script>')
+</script>
+
+<script src="js/vendor/bootstrap.min.js "></script>
+
+<script src="js/plugins.js "></script>
+<script src="js/main.js "></script>
+
+<!-- This is a comment. 
+This can span multiple lines
+-->
+
+</html

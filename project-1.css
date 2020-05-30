@@ -1,0 +1,323 @@
+.navitem {
+    display: inline-block;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+
+.dropdown-item a:hover,
+a:active,
+a:visited {
+    color: black;
+}
+
+.dropdown-item a {
+    color: black;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+header {
+    background-color: white;
+    border: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 0ch;
+}
+
+nav .logo {
+    float: left;
+    margin-left: 30px;
+}
+
+nav .logo a {
+    font-size: 28px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.897);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+nav .logo em {
+    font-style: normal;
+    font-weight: 200;
+}
+
+nav {
+    background: rgba(250, 250, 250, 0.2);
+    height: 60px;
+    position: fixed;
+    width: 1110px;
+    margin: auto;
+    top: 0;
+    z-index: 300;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.nav-bar {
+    background: rgba(250, 250, 250, 0.2);
+    height: 30px;
+    position: fixed;
+    width: 1110px;
+    margin: auto;
+    top: 60px;
+    z-index: 300;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 20px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+li.navitem {
+    text-decoration: none;
+}
+
+a {
+    color: grey;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: rgb(189, 183, 183);
+    text-decoration: underline;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem
+}
+
+.menu-icon {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 40px;
+    margin: -10px 39px 0 auto;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.5s;
+    border-radius: 5px;
+}
+
+.menu-icon span,
+.menu-icon span:before,
+.menu-icon span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 2px;
+    width: 35px;
+    background: white;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    display: block;
+    content: '';
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-icon span:before {
+    left: 0;
+    top: -10px;
+}
+
+.menu-icon span:after {
+    left: 0;
+    top: 10px;
+}
+
+.menu-icon.active {
+    background: rgba(250, 250, 250, 0.2);
+}
+
+.menu-icon.active span {
+    background-color: transparent;
+}
+
+.menu-icon.active span:before,
+.menu-icon.active span:after {
+    top: 0;
+}
+
+.menu-icon.active span:before {
+    transform: rotate(135deg);
+}
+
+.menu-icon.active span:after {
+    transform: rotate(-135deg);
+}
+
+<!--->#pic-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    max-width: 1140px;
+}
+
+#pic-container,
+.pic-overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#pic-container .pic-overlay {
+    z-index: 9999;
+    width: 100%;
+}
+
+#pic-container .pic-content {
+    z-index: 99999;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pic-container .pic-content .inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#pic-container .pic-content .inner h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#pic-container .pic-content .inner em {
+    font-style: normal;
+    font-weight: 200;
+}
+
+#pic-container .pic-content .inner p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+#pic-container .pic-content .inner a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#pic-container .pic-content .inner .scroll-icon {
+    margin-top: 45px
+}
+
+#specific-content {
+    padding-bottom: 60px;
+    background-color: black;
+    margin: auto;
+    border-top: 1px solid rgb(249, 249, 249);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5)
+}
+
+.title {
+    color: white;
+    background: rgba(250, 250, 250, 0.2);
+    margin-left: 60px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid grey;
+}
+
+.title .scroll-icon .special-icon {
+    text-align: right;
+}
+
+.title:hover {
+    background: rgba(250, 250, 250, 0.377);
+}
+
+#information {
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+#discribtion {
+    color: white;
+    text-align: left;
+    padding-top: 60px;
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+#time {
+    color: white;
+    text-align: left;
+    padding-top: 60px;
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+#location {
+    color: white;
+    text-align: left;
+    padding-top: 60px;
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+.text-background {
+    position: relative;
+    color: rgba(250, 250, 250, 0.4);
+}
+
+video {
+    width: 700px;
+}
+
+.card {
+    background: rgba(245, 245, 245, 0.877);
+    border-color: azure;
+    box-shadow: 2px 2px 10px 2px rgba(240, 255, 255, 0.63);
+}
+
+.card-body {
+    font-size: 20px;
+}
+
+.back-top {
+    position: fixed;
+    z-index: 300;
+    bottom: 30px;
+    right: 30px;
+    z-index: 300;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: black
+}

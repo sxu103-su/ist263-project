@@ -1,0 +1,291 @@
+<head>
+    <title>IST 263</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./bootstrap-4.1.3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <style>
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            .col-4 {
+                max-width: 100%;
+            }
+            .col-8 {
+                width: 100%;
+            }
+            .col-1 {
+                max-width: 25%;
+            }
+            .col-11 {
+                max-width: 75%;
+            }
+        }
+        
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            .col-ss-12 {
+                width: 33.3%;
+            }
+            .col-mm-12 {
+                width: 66.7%;
+            }
+            .col-ss-3 {
+                width: 8.33%;
+            }
+            .col-ss-9 {
+                width: 91.67%;
+            }
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+
+
+</head>
+
+<body class="container">
+    <div class="main-content">
+
+        <header>
+            <div class="row">
+                <div class="col col-6">
+                    <h3><span>Celestial Events</span>&nbsp;<span style="font-size: 15px;">for year 2018</span></h3>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="row">
+                <div class="col col-1 ">
+                    <p></p>
+                </div>
+                <div class="col col-8 ">
+                    <nav class="navbar">
+                        <ul style="padding-left: 0ch;">
+                            <li class="navitem">
+                                <a href="./project.html">HOME</a></li>
+                            <li class="navitem">
+                                <a href="./category.html">ABOUT</a></li>
+                            <li class="navitem dropdown">
+                                <a href="./category.html#category">CATEGORY</a>
+
+                                <ul class="dropdown-content dropdown-menu">
+                                    <li class="dropdown-item"><a href="./lunar.html">MOON EVENT</a></li>
+
+                                    <li class="dropdown-item"> <a href="./solar eclipse.html">SOLAR EVEN</a>T</li>
+                                    <li class="dropdown-item"><a href="./planetary.html">PLANETARY EVENT</a></li>
+                                    <li class="dropdown-item"><a href="./planetary.html">CONJUNCTORY</a></li>
+                                    <li class="dropdown-item"><a href="./meteor shower.html">METEOR SHOWER</a></li>
+                                    <li class="dropdown-item"><a href="./planetary.html">COMET</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="navitem">
+                                <a href="./category.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col col-3">
+                    <input type="text" placeholder="Search..">
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="row">
+                <div id="sidebar" class="col col-1 col-ss-3">
+                    <div class="side-name">EVENTS </div>
+                    <div class="side-adj">IN MONTH</div>
+                    <ul class="side">
+                        <li class="active">
+                            <a href="./lunar.html"><span>JAN</span>JANUARY</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><SPAN>FEB</SPAN>FEBURARY</a></li>
+                        <li>
+                            <a href="./solar eclipse.html"><span>MAR</span>MARCH</a></li>
+                        <li>
+                            <a href="./planetary.html"><span>APR</span>APRIL</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>MAY</span>MAY</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>JUN</span>JUNE</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>JUL</span>JULY</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>AUG</span>ANGEST</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>SEPT</span>SEPTEMBER</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>OCT</span>OCTORBER</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>NOV</span>NOVAMBER</a></li>
+                        <li>
+                            <a href="./meteor shower.html"><span>DEC</span>DECEMBER</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="col col-11 col-ss-9 bkground" style="left:15px">
+                    <p class="title-a">What is Celestial Event?</p>
+                    <div class="row sec-category">
+                        <div class="col col-8  col-mm-12 sec-border">
+                            <p>A celestial event is an astronomical phenomenon of interest that involves one or more celestial objects. Some examples of celestial events are the cyclical phases of the Moon, solar and lunar eclipses, transits and occultations,
+                                planetary oppositions and conjunctions, meteor showers, and comet flybys.</p>
+                        </div>
+                        <div class="col col-4 col-ss-12 ">
+                            <img src="./img/event.jpg" class="img-thumbnail" alt="event" />
+                        </div>
+                    </div>
+
+                    <p class="title-a">What is an Astronomical Object?</p>
+                    <div class="row sec-category">
+                        <div class="col col-4 col-ss-12">
+                            <img src="./img/celestial-object.jpg" class="img-thumbnail" alt="object" />
+                        </div>
+                        <div class="col col-8 col-ss-12 sec-border">
+                            <p>An astronomical object or celestial object is a naturally occurring physical entity, association, or structure that exists in the observable universe.[1] In astronomy, the terms object and body are often used interchangeably.
+                                However, an astronomical body or celestial body is a single, tightly bound, contiguous entity, while an astronomical or celestial object is a complex, less cohesively bound structure, which may consist of multiple bodies
+                                or even other objects with substructures.</p>
+                        </div>
+
+
+                    </div>
+                    <div style="margin-top:60px;" class="sec-category" id="category">
+                        <p class="title-a">The Category of Celestial Event</p>
+                        <div class="row ">
+
+                            <div class="col col-4 col-ss-12">
+                                <a class="btn " data-toggle="collapse" href="#lunarevent" role="button" aria-expanded="false" aria-controls="lunarevent">
+                                    <img src="./img/Lunar.jpg" class="img-thumbnail rounded-circle iconround" alt="moon event" /> MOON EVENT &nbsp &nbsp&nbsp&nbsp&nbsp
+                                </a>
+                            </div>
+                            <div class="col col-4 col-ss-12">
+                                <a class="btn " data-toggle="collapse" href="#solarevent" role="button" aria-expanded="false" aria-controls="solarevent">
+                                    <img src="./img/solar-eclipse.jpg" class="img-thumbnail rounded-circle iconround" alt="solar event" /> SOLAR EVENT&nbsp&nbsp&nbsp&nbsp</a>
+                            </div>
+                            <div class="col col-4 col-ss-12">
+                                <a class="btn " data-toggle="collapse" href="#planetaryevent" role="button" aria-expanded="false" aria-controls="planetaryevent">
+                                    <img src="./img/planet.png" class="img-thumbnail rounded-circle iconround" alt="planet event" /> PLANETARY EVENT</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="lunarevent">
+                            <div class="card card-body">
+                                The Moon's rotation is tidally locked by Earth's gravity; therefore, most of the same lunar side always faces Earth. This near side is variously sunlit, depending on the position of the Moon in its orbit. Thus, the sunlit portion of this face can vary
+                                from 0% (at new moon) to 100% (at full moon). The lunar terminator is the boundary between the illuminated and darkened hemispheres.
+                            </div>
+                        </div>
+                        <div class="collapse" id="solarevent">
+                            <div class="card card-body">
+                                The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma,[14][15] with internal convective motion that generates a magnetic field via a dynamo process.[16] It is by far the most important source of energy for
+                                life on Earth. Its diameter is about 1.39 million kilometers, or 109 times that of Earth, and its mass is about 330,000 times that of Earth. It accounts for about 99.86% of the total mass of the Solar System.[17] About
+                                three quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon, and iron.
+                            </div>
+                        </div>
+                        <div class="collapse" id="planetaryevent">
+                            <div class="card card-body">
+                                A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-4  col-ss-12">
+                                <a class="btn " data-toggle="collapse" href="#conjunction" role="button" aria-expanded="false" aria-controls="conjunction">
+                                    <img src="./img/conjunction.jpg" class="img-thumbnail rounded-circle iconround" alt="moon event" /> CONJUNCTORY &nbsp&nbsp&nbsp&nbsp</a>
+                            </div>
+                            <div class="col col-4  col-ss-12">
+                                <a class="btn " data-toggle="collapse" href="#metershower" role="button" aria-expanded="false" aria-controls="metershower">
+                                    <img src="./img/meter.jpg" class="img-thumbnail rounded-circle iconround" alt="meter shower" /> METEOR SHOWER</a>
+                            </div>
+                            <div class="col col-4  col-ss-12">
+                                <a class="btn " data-toggle="collapse" href="#comet" role="button" aria-expanded="false" aria-controls="comet">
+                                    <img src="./img/comet.png" class="img-thumbnail rounded-circle iconround" alt="comet" /> COMET&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="conjunction">
+                            <div class="card card-body">
+                                In astronomy, a conjunction occurs when two astronomical objects or spacecraft have either the same right ascension or the same ecliptic longitude, usually as observed from Earth.[1][2] The astronomical symbol for conjunction is ☌ (in Unicode U+260C)
+                                and handwritten Astronomical conjunction symbol.png. The conjunction symbol is not used in modern astronomy. It continues to be used in astrology.
+                            </div>
+                        </div>
+                        <div class="collapse" id="metershower">
+                            <div class="card card-body">
+
+                                Four-hour time lapse exposure of the sky Leonids from space A meteor shower is a celestial event in which a number of meteors are observed to radiate, or originate, from one point in the night sky. These meteors are caused by streams of cosmic debris
+                                called meteoroids entering Earth's atmosphere at extremely high speeds on parallel trajectories. Most meteors are smaller than a grain of sand, so almost all of them disintegrate and never hit the Earth's surface. Intense
+                                or unusual meteor showers are known as meteor outbursts and meteor storms, which may produce greater than 1000 meteors an hour.[1] The Meteor Data Centre lists over 900 suspected meteor showers of which about 100 are well
+                                established.[2] Several organizations provide viewing opportunities on the Internet.[3]
+                            </div>
+                        </div>
+                        <div class="collapse" id="comet">
+                            <div class="card card-body">
+                                A comet is an icy small Solar System body that, when passing close to the Sun, warms and begins to release gases, a process called outgassing. This produces a visible atmosphere or coma, and sometimes also a tail. These phenomena are due to the effects
+                                of solar radiation and the solar wind acting upon the nucleus of the comet.
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="row">
+                                <div class="col col-1"></div>
+                                <div id="contact" class="col col-10 contact-us">
+                                    <h3>CONTACT US!</h3>
+                                </div>
+                            </div>
+                            <form action="#" method="post" id="contact_form" role="form">
+                                <div class="row">
+                                    <div class="col col-3">
+                                        <div>
+                                            <div style="display:inline-block"> <i class="fas fa-user-circle"></i></div>
+                                            <div class="form-group " style="display:inline-block">
+
+                                                <input name="name" type="text" class="form-control" id="input_name" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div style="display:inline-block"> <i class="fas fa-envelope"></i></div>
+                                            <div class="form-group " style="display:inline-block">
+
+                                                <input name="email" type="email" class="form-control" id="input_email" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div style="display:inline-block"> <i class="fas fa-phone-square"></i></div>
+                                            <div class="form-group " style="display:inline-block">
+
+                                                <input name="phone" type="tel" class="form-control" id="input_tel" placeholder="Phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col col-9">
+                                        <div class="form-group" style="padding-right:25px">
+
+                                            <textarea name="message" rows="6" class="form-control" id="input_message" placeholder="Text us if you have quetions..."></textarea><br>
+                                            <button type="submit" class="btn btn-primary">Send</button>
+                                            <button type="reset" class="btn btn-default right">Reset</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row -->
+                            </form>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
